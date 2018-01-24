@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "lyuxxx" => "lyxiel@163.com" }
   s.platform     = :ios, "8.0"
+  s.static_framework = true
   s.source       = { :git => "https://github.com/lyuxxx/XXWeChatSDK.git", :tag => "#{s.version}" }
   s.source_files  = "SDK/*.{h,m}"
   s.public_header_files = "SDK/*.h"
