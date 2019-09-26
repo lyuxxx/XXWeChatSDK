@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lyuxxx/XXWeChatSDK.git", :tag => "#{s.version}" }
   s.source_files  = "SDK/*.{h,m}"
   s.public_header_files = "SDK/*.h"
-  s.frameworks = "Foundation", "UIKit", "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork"
+  s.frameworks = "Foundation", "UIKit", "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "WebKit"
   s.libraries = "z", "sqlite3.0", "c++"
   s.requires_arc = true
   s.vendored_libraries = "SDK/libWeChatSDK.a"
