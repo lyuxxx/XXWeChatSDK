@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "XXWeChatSDK"
-  s.version      = "1.8.5"
-  s.summary      = "WeChatSDK 1.8.5"
+  s.version      = "1.8.6.1"
+  s.summary      = "WeChatSDK 1.8.6.1"
   s.description  = <<-DESC
-  WeChatSDK 1.8.5 version
+  WeChatSDK 1.8.6.1 version
                    DESC
   s.homepage     = "https://github.com/lyuxxx/XXWeChatSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
